@@ -107,7 +107,7 @@ The PGx-KA includes this ReadMe plus the following four other documentation arti
 ### What Other Resources for the PGx-KA are available?
 
 - In this GitHub repostiory, there is an ipynb file for a Jupyter Notebook that has been made ready for use with VisualStudio Code.
-- At this [link] (https://colab.research.google.com/drive/1giJbbABb2UBuFFSQPiIZBm7HVIc8-egI?usp=sharing), there is a version of the Jupyter Notebook that uses the PGx-KA deployed as a Google Colab notebook. 
+- At this [link](https://colab.research.google.com/drive/1giJbbABb2UBuFFSQPiIZBm7HVIc8-egI?usp=sharing), there is a version of the Jupyter Notebook that uses the PGx-KA deployed as a Google Colab notebook. 
 
 - - - 
 
