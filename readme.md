@@ -100,7 +100,14 @@ The PGx-KA includes this ReadMe plus the following four other documentation arti
 - An Info Page automatically generated from the PGx-KA's own metadata file can be viewed online [here](https://kgrid-objects.github.io/pgx-knowledge-assembly/pgx_ka_info_page.html).
 - Docs for describing PGx-KA's two Services are available [here](https://github.com/kgrid-objects/pgx-knowledge-assembly/blob/main/pgx-ka/ServiceReadMe.md).
 - Docs specifically for the Library Service unit test are [here](https://github.com/kgrid-objects/pgx-knowledge-assembly/blob/main/pgx-ka/tests/library-service.readme.md).
-- Docs specifically for the Plugin Service unit test are [here](https://github.com/kgrid-objects/pgx-knowledge-assembly/blob/main/pgx-ka/tests/plugin-service.readme.md). 
+- Docs specifically for the Plugin Service unit test are [here](https://github.com/kgrid-objects/pgx-knowledge-assembly/blob/main/pgx-ka/tests/plugin-service.readme.md).
+
+- - - 
+
+### What Other Resources for the PGx-KA are available?
+
+- In this GitHub repostiory, there is an ipynb file for a Jupyter Notebook that has been made ready for use with VisualStudio Code.
+- At this [link] (https://colab.research.google.com/drive/1giJbbABb2UBuFFSQPiIZBm7HVIc8-egI?usp=sharing), there is a version of the Jupyter Notebook that uses the PGx-KA deployed as a Google Colab notebook. 
 
 - - - 
 
