@@ -7899,8 +7899,17 @@ def phenotype(inputs):
 
 def main():
     try:
-        print("Find out whether someone should AVOID codeine.")
-        diplotype = input("Enter an individual's diplotype for CYP2D6 (EX *7/*8): ")
+        import argparse
+
+        parser = argparse.ArgumentParser(description="Codeine avoidance check based on diplotype")
+        parser.add_argument('--diplotype', type=str, default=None, help="The individual's diplotype for CYP2D6 (e.g., *7/*8)")
+        args = parser.parse_args()
+
+        if not args.diplotype:
+            print("Find out whether someone should AVOID codeine.")
+            diplotype = input("Enter an individual's diplotype for CYP2D6 (EX *7/*8): ")
+        else:
+            diplotype = args.diplotype
         recommendation = dosingrecommendation(phenotype({"CYP2D6": diplotype}))
 
         print("****************Answer**********************")
